@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <textarea id="textForm" name="name" rows="8" cols="54" autofocus="" placeholder="Введите текст"></textarea><br>
+        <div class="wrapperButton">
+            <button type="button" name="button" id="getWord" class="button">Преобразовать</button>
+            <button type="button" name="button" id="clearAll" class="button">Отчистить все</button>
+        </div>
+
+        <div class="wrapperOutput">
+            <div class="wrapperOutputBlockLeft">
+                <div class="calc">кол-во
+                    <div class="calcValue" id="calcValueBig">0</div>
+                </div>
+                <div class="outputBlock" id="bigData">
+                </div>
+            </div>
+            <div class="wrapperOutputBlockRight">
+                <div class="calc">кол-во
+                    <div class="calcValue" id="calcValueSmall">0</div>
+                </div>
+                <div class="outputBlock" id="smallData">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script defer src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
